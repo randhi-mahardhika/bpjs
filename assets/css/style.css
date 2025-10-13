@@ -228,15 +228,6 @@ footer a:hover {
   color: #414141;
 }
 
-.hero .highlight-blue {
-  color: #f8f9fb;
-  background-color: #0070c0; /* biru BPJS */
-}
-.hero .highlight-green {
-  color: #f8f9fb;
-  background-color: #58bc36; /* hijau BPJS */
-}
-
 /* Floating */
 .hero .floating-elements {
   position: absolute;
