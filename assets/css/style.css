@@ -337,3 +337,44 @@ table.table th {
 table.table td ul {
   padding-left: 20px;
 }
+
+/* Styling list section */
+.list-content {
+  counter-reset: item;
+  margin-left: 1rem;
+}
+
+.list-content > li {
+  margin-bottom: 1.25rem; /* jarak antar poin utama */
+  line-height: 1.6;
+}
+
+.list-content > li strong {
+  display: block;
+  margin-bottom: 0.5rem; /* jarak antara judul dan sub-poin */
+  font-weight: 600;
+  color: #222;
+}
+
+.list-content ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.25rem; /* indentasi sub-poin */
+}
+
+.list-content ul li {
+  margin-bottom: 0.4rem; /* jarak antar sub-poin */
+  line-height: 1.5;
+  list-style-type: "– "; /* pakai dash elegan */
+  color: #444;
+}
+
+/* Responsif: biar tetap nyaman dibaca di layar kecil */
+@media (max-width: 768px) {
+  .list-content > li {
+    margin-bottom: 1rem;
+  }
+  .list-content ul {
+    padding-left: 1rem;
+  }
+}
