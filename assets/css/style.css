@@ -57,14 +57,21 @@ body {
   position: relative;
   height: 100vh;
   padding-top: 96px;
-  /* background: radial-gradient(1200px 400px at 80% -10%, var(--brand-400) / 12%, transparent 60%); */
   overflow: hidden;
-  background-color: #d5f3fb;
+  /* background: radial-gradient(1200px 400px at 80% -10%, var(--brand-400) / 12%, transparent 60%); */
+  /* background-color: #d5f3fb; */
+  background: url("../img/hero-image.png") center center / cover no-repeat;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* background: radial-gradient(800px 200px at 10% 100%, var(--brand-400) / 12%, transparent 70%); */
 }
 .hero-visual .glow {
   position: absolute;
   inset: -10%;
-  background: radial-gradient(400px 200px at 30% 10%, var(--brand-500) / 15%, transparent 60%);
+  /* background: radial-gradient(400px 200px at 30% 10%, var(--brand-500) / 15%, transparent 60%); */
   filter: blur(30px);
   pointer-events: none;
 }
@@ -79,12 +86,6 @@ body {
   50% {
     transform: translateY(-10px);
   }
-}
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: radial-gradient(800px 200px at 10% 100%, var(--brand-400) / 12%, transparent 70%);
 }
 
 /* Icon boxes */
