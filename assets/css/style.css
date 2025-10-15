@@ -379,3 +379,29 @@ table.table td ul {
     padding-left: 1rem;
   }
 }
+
+.footer-logos {
+  flex-wrap: nowrap; /* tetap sejajar di semua ukuran layar */
+}
+
+.footer-logo {
+  max-width: 180px;
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover efek elegan */
+.footer-logos a:hover .footer-logo {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Responsif: layar kecil */
+@media (max-width: 480px) {
+  .footer-logo {
+    max-width: 130px;
+  }
+  .footer-logos {
+    gap: 1rem;
+  }
+}
