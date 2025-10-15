@@ -60,7 +60,7 @@ body {
   overflow: hidden;
   /* background: radial-gradient(1200px 400px at 80% -10%, var(--brand-400) / 12%, transparent 60%); */
   /* background-color: #d5f3fb; */
-  background: url("../img/hero-image-blue.png") center center / cover no-repeat;
+  background: url("../img/hero-image-blue.webp") center center / cover no-repeat;
 }
 .hero-bg {
   position: absolute;
